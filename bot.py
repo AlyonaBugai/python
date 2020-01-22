@@ -1,7 +1,7 @@
 import telebot
 import openpyxl
 
-access_token = "952661047:AAGRvG7gqnV-EfvN7n7291baHtIbiuJMQQw"
+access_token = "here is your token"
 bot = telebot.TeleBot(access_token)
 
 wb = openpyxl.load_workbook(filename='rozklad.xlsx')
